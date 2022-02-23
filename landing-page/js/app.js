@@ -24,8 +24,7 @@
 */
 const sections = Array.from(document.querySelectorAll('section'));
 const menue = document.getElementById('navbar_list');
-let numOfListItems = sections.length;
-/**
+/*
  * End Global Variables
  * Start Helper Functions
  * 
@@ -39,7 +38,7 @@ let numOfListItems = sections.length;
 */
 
 // build the nav
-
+const buildNav = () => 
 
 // Add class 'active' to section when near top of viewport
 
